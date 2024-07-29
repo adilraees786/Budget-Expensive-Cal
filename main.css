@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.left {
+    height: 35vh;
+    width: 60vh;
+    background-color: aliceblue;
+
+}
+
+.left h1 {
+    padding: 5px;
+    font-weight: bolder;
+
+
+}
+
+.left input {
+    margin-top: 10px;
+    width: 90%;
+    height: 15%;
+    border: 2px solid rgb(31, 22, 22);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.right {
+
+    height: 35vh;
+    width: 60vh;
+    background-color: aliceblue;
+    margin-left: 10px;
+}
+
+.right h1 {
+    padding: 5px;
+    font-weight: bolder;
+
+}
+
+.right input {
+    margin-top: 10px;
+    width: 90%;
+    height: 15%;
+    border: 2px solid rgb(31, 22, 22);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button {
+    font-family: inherit;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #4dc7d9 0%, #66a6ff 100%);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.mainunder {
+    display: flex;
+    justify-content: space-around;
+    width: 120vh;
+    height: 12vh;
+    background-color: #66a6ff;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 22%;
+    border-radius: 5px;
+
+}
+
+.totalbudget, .expensive, .balance{
+
+
+}
+
+.expenseslist{
+    margin-top: 2%;
+    margin-left: 22%;
+    width: 120vh;
+    height: auto;
+    background-color: azure;
+}
+.expenseslist h3{
+    padding: 5px;
+
+}

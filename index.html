@@ -11,16 +11,16 @@
 <div class="main">
     <div class="left">
 <h1>Budget</h1>
- <input type="text" id="" placeholder="Enter Budget">
- <button>Set Budget</button>
+ <input type="text" id="Budgetinp" placeholder="Enter Budget">
+ <button id="Budgetbtn">Set Budget</button>
     </div>
 
     <div class="right">
         <h1>Expensive</h1>
-        <input type="text" name="" id="" placeholder="Enter Title of Product">
+        <input type="text" name="" id="Expensesinp1" placeholder="Enter Title of Product">
 
-        <input type="text" name="" id="" placeholder="Enter the cost of the Product">
-        <button>Check Amount</button>
+        <input type="text" name="" id="Expensesinp2" placeholder="Enter the cost of the Product">
+        <button id="CheckAmountbtn">Check Amount</button>
 
     </div>
 </div>
@@ -28,21 +28,33 @@
 <div class="mainunder">
     <div class="totalbudget">
         <h5>Total Budget</h5>
-        <p>0</p>
+        <p id="totalbudget">0</p>
     </div>
     <div class="expensive">
         <h5>Expenses</h5>
-        <p>0</p>
+        <p id="total-expense">0</p>
     </div>
     <div class="balance">
         <h5>Balance</h5>
-        <p>0</p>
+        <p id="balance-inpt">0</p>
     </div>
 </div>
 
 <div class="expenseslist">
     <h3>Expenses list</h3>
-    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbl-content">
+
+        </tbody>
+    </table>
 </div>
 
 

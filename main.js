@@ -57,7 +57,7 @@ checkamountbtn.addEventListener('click', function () {
 function deleteRow(e) {
    let deleteTableRow = document.getElementById('del-row');
    deleteTableRow.closest('tr').remove();
-//    let totalExpenseCard = parseInt(totalExpense.textContent) - parseInt(deleteTableRow.previousElementSibling.textContent);
+
 
 console.log(deleteTableRow.lastElementChild);
     
